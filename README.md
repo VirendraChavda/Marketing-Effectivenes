@@ -24,9 +24,7 @@ Marketing campaigns are integral to driving customer engagement and conversions.
 </p>
 
 ## Data:
-<p align="justify">
 The dataset used for this project includes anonymized user data on ad exposure and conversion outcomes, with the following key attributes:
-</p>
 
 * **test group**: Indicates the campaign type (`ad` or `psa`)
 * **converted**: Binary variable indicating conversion (True/False)
@@ -45,36 +43,27 @@ The dataset was cleaned by removing irrelevant columns and focusing on metrics e
 </p>
 
 ### 2. Statistical Testing
-<p align="justify">
-The following statistical tests were conducted: 
-
+The following statistical tests were conducted:
 * **Chi-Square Test**: To compare conversion rates between `ad` and `psa` groups.
 * **Point-Biserial Correlation**: To measure the association between `total ads` and conversion.
 * **Linear Regression**: To estimate the effect of `total ads` on conversion probability.
 * **Effect Size Calculation (Cohen’s d)**: To determine the practical significance of ad exposure differences between groups.
-</p>
 
 ### 3. Visualization
-<p align="justify">
-Visualizations included: 
-
+Visualizations included:
 * **Conversion Rate by Day and Hour**: Stacked bar plots for weekly and hourly conversion trends.
 * **Conversion vs. Total Ads**: Scatter and box plots to visualize ad exposure differences by conversion status.
-</p>
 
 ## Results:
-<p align="justify">
-* **Conversion Differences**: The Chi-Square test indicated significant conversion differences between the `ad` and `psa` groups. 
+* **Conversion Differences**: The Chi-Square test indicated significant conversion differences between the `ad` and `psa` groups.
 * **Ad Frequency Impact**: A positive correlation between `total ads` and conversion probability was found, with regression results showing a small but significant increase in conversion with ad frequency.
 * **Effect Size**: Cohen’s d showed an extremely small practical effect, indicating that while statistically significant, the difference in ad exposure is practically minimal. 
-</p>
+
 
 ## Future Work:
-<p align="justify">
 * **Incorporate Additional Features**: Adding data on user demographics and behavior could refine insights.
 * **Longitudinal Analysis**: Analyzing conversion trends over time may reveal seasonality or time-sensitive patterns.
 * **Machine Learning Integration**: Building predictive models using these results could enhance campaign targeting and optimization. 
-</p>
 
 ## Contributing
 <p align="justify">
