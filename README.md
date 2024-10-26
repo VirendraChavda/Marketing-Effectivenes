@@ -87,4 +87,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-For more details, please refer to the [project report](./A_B-Testing.ipynb).
+For more details, please refer to the [project report]([https://github.com/VirendraChavda/Marketing-Effectivenes/blob/main/A_B%20Testing.ipynb]).
