@@ -38,9 +38,7 @@ For the purposes of this project, a subset of 2000 transactions was sampled and 
 
 ## Methodology:
 ### 1. Preprocessing
-<p align="justify">
 The dataset was cleaned by removing irrelevant columns and focusing on metrics essential for A/B testing, such as `test group`, `converted`, `total ads`, `most ads day`, and `most ads hour`.
-</p>
 
 ### 2. Statistical Testing
 The following statistical tests were conducted:
